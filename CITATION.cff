@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: If you use this software in your work, please cite it using the following metadata.
+authors:
+  - family-names: Sun
+    given-names: Haoran
+  - family-names: Wang
+    given-names: Jingkai
+  - family-names: Bao
+    given-names: Hujun
+  - family-names: Huang
+    given-names: Jin
+title: "GauWN: Gaussian-smoothed Winding Number and its Derivatives"
+version: 1.0.0
+url: https://doi.org/10.1145/3680528.3687569
+doi: 10.1145/3680528.3687569
+date-released: "2024-09-08"
+preferred-citation:
+  authors:
+    - family-names: Sun
+      given-names: Haoran
+    - family-names: Wang
+      given-names: Jingkai
+    - family-names: Bao
+      given-names: Hujun
+    - family-names: Huang
+      given-names: Jin
+  title: "GauWN: Gaussian-smoothed Winding Number and its Derivatives"
+  doi: 10.1145/3680528.3687569
+  url: https://doi.org/10.1145/3680528.3687569
+  type: conference-paper
+  year: "2024"
+  isbn: "9798400711312"
+  collection-title: SIGGRAPH Asia 2024 Conference Papers
+  conference:
+    name: SA '24
+  publisher:
+    name: Association for Computing Machinery
+    address: New York, NY, Japan
