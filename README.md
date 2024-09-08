@@ -11,11 +11,13 @@
 ## Build
 * Option 1: build with Vcpkg (recommended)
 ```bash
+# Install Vcpkg, and set $VCPKG_ROOT environment variable
 cmake -S . -B build --preset release
 cmake --build build
 ```
 * Option 2: manually install the dependencies
 ```bash
+# Manually install the dependency
 cmake -S . -B build --preset release-m
 cmake --build build-m
 ```
