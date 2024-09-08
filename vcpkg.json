@@ -2,11 +2,8 @@
   "dependencies": [
     "eigen3",
     "abseil",
-    "backward-cpp",
     "fmt",
-    "libigl",
     "cli11",
-    "spdlog",
     "doctest"
   ]
 }

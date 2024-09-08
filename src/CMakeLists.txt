@@ -5,8 +5,7 @@ target_link_libraries(GauWN PUBLIC
     absl::inlined_vector
     absl::flat_hash_map
     absl::flat_hash_set
-    OpenMP::OpenMP_CXX
-    igl::igl_core)
+    OpenMP::OpenMP_CXX)
 target_compile_features(GauWN PUBLIC cxx_std_23)
 
 add_subdirectory(piecewise2d)

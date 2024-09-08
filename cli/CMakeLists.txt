@@ -1,6 +1,5 @@
-add_executable(gauwn-cli entrypoint.cpp ${BACKWARD_ENABLE})
+add_executable(gauwn-cli entrypoint.cpp)
 
-add_backward(gauwn-cli)
 
 target_compile_features(gauwn-cli PUBLIC cxx_std_23)
 target_link_libraries(gauwn-cli PRIVATE GauWN CLI11::CLI11)

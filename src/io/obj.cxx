@@ -1,7 +1,6 @@
 module;
 #include <Eigen/Core>
 #include <fstream>
-#include <igl/readOBJ.h>
 
 module zjucad.gauwn.io.obj;
 
@@ -32,7 +31,5 @@ bool read_obj2d(const std::string &filepath, Eigen::MatrixXd &V, Eigen::MatrixXi
         L.row(i) = line[i];
     return !read_error;
 }
-bool read_obj3d(const std::string &filepath, Eigen::MatrixXd &V, Eigen::MatrixXi &F) {
-    return igl::readOBJ(filepath, V, F);
-}
+
 } // namespace zjucad::gauwn::io

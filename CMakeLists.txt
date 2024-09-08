@@ -13,12 +13,9 @@ endif()
 
 find_package(OpenMP REQUIRED)
 find_package(Eigen3 3.4 CONFIG REQUIRED)
-find_package(absl 20240116 CONFIG REQUIRED)
+find_package(absl  CONFIG REQUIRED)
 find_package(fmt 10.2 CONFIG REQUIRED)
-find_package(libigl CONFIG REQUIRED)
-find_package(spdlog CONFIG REQUIRED)
 find_package(CLI11 CONFIG REQUIRED)
-find_package(Backward CONFIG REQUIRED)
 
 
 add_subdirectory(src)

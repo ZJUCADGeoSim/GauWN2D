@@ -1,7 +1,5 @@
 module;
 #include <CLI/CLI.hpp>
-#include <spdlog/spdlog.h>
-#include <spdlog/cfg/env.h>
 
 export module zjucad.gauwn_cli.main;
 import zjucad.gauwn_cli.value;
@@ -11,8 +9,6 @@ import zjucad.gauwn_cli.cli_subcmd;
 
 namespace zjucad::gauwn_cli {
 export int main(int argc, char **argv) {
-    spdlog::set_pattern("[%^%l%$] %v");
-    spdlog::cfg::load_env_levels();
     CLI::App app{"gauwn"};
     app.require_subcommand(1, 0);
     app.set_config("--config");
